@@ -13,9 +13,17 @@ with open('example.json', "r") as f:
 # render timeline
 timeline(data, height=800)
 
+import streamlit as st
+import time
+
 html_string = """
-            <audio autoplay="" preload="auto" src="//media85.melon365.com/other/2019/12-3/mp3442382242ae87f5169ac3453e940d96f988b3d75385.mp3" style="width: 100%;"></audio>
+            <audio controls autoplay>
+              <source src="//media85.melon365.com/other/2019/12-3/mp3442382242ae87f5169ac3453e940d96f988b3d75385.mp3" type="audio/mp3">
+            </audio>
             """
+
+sound = st.empty()
+sound.markdown(html_string, unsafe_allow_html=True)  # will display a st.audio with the sound you specified in the "src" of the html_string and autoplay it
 
 sound = st.empty()
 sound.markdown(html_string, unsafe_allow_html=True)  # will display a st.audio with the sound you specified in the "src" of the html_string and autoplay it
