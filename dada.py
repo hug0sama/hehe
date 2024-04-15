@@ -17,5 +17,5 @@ html_string = """
               <source src="https://dc585.4shared.com/img/003XNtJ1gm/28cbd634/dlink__2Fdownload_2F003XNtJ1gm_2F_5F-1.mp3_3Fsbsr_3D2967a778cc4983026683ee810d2ae1bfb10_26bip_3DMTgwLjEyOS43My4xMzk_26lgfp_3D52_26bip_3DMTgwLjEyOS43My4xMzk/preview.mp3" type="audio/mp3">
             </audio>
             """
-
+sound.empty()
 sound.markdown(html_string, unsafe_allow_html=True)  # will display a st.audio with the sound you specified in the "src" of the html_string and autoplay it
