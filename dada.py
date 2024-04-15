@@ -18,5 +18,4 @@ html_string = """
             </audio>
             """
 
-sound = st.empty()
 sound.markdown(html_string, unsafe_allow_html=True)  # will display a st.audio with the sound you specified in the "src" of the html_string and autoplay it
