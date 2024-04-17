@@ -4,7 +4,7 @@ from streamlit_timeline import timeline
 st.set_page_config(page_title="Timeline Example", layout="wide")
 
 html_string = """
-            <audio controls autoplay>
+            <audio controls autoplay="true">
               <source src="https://github.com/hug0sama/hehe/blob/main/1.mp3?raw=true" type="audio/mp3">
             </audio>
             """
