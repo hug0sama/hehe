@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_timeline import timeline
 
 # Set page configuration
-st.set_page_config(page_title="Anniversary", layout="centered")
+st.set_page_config(page_title="Anniversary", layout="wide")
 
 # Callback function to play audio
 def play_audio():
