@@ -13,15 +13,11 @@ if 'play_audio' not in st.session_state:
     st.session_state['play_audio'] = False
 
 # Center the button in the page
-col1, col2, col3 = st.columns(3)
-with col1:
-pass
-with col2:
+col1, col2, col3, col4, col5 = st.columns(5)
+with col3:
     if not st.session_state['play_audio']:
         # Button to play music
         st.button('Start Music', on_click=play_audio)
-with col3:
-pass
 
 # If the button has been clicked, play the music without displaying the audio player
 if st.session_state['play_audio']:
