@@ -4,54 +4,33 @@ from streamlit_timeline import timeline
 # Set page configuration
 st.set_page_config(page_title="Anniversary", layout="wide")
 
-# Custom CSS to hide the audio controls and make the image cover the full screen
-st.markdown("""
-    <style>
-        .stAudio {
-            display: none;
-        }
-        .cover-image {
-            position: fixed;
-            top: 0;
-            left: 0;
-            min-width: 100%;
-            min-height: 100%;
-            z-index: 9999;
-            cursor: pointer;
-        }
-    </style>
-    """, unsafe_allow_html=True)
+# Initialize session state
+if 'image_clicked' not in st.session_state:
+    st.session_state['image_clicked'] = False
 
-# Custom JS to hide the image on click and play music
-st.markdown("""
-    <script>
-        function playMusic() {
-            var audio = document.getElementById('audio');
-            var coverImage = document.getElementById('coverImage');
-            coverImage.style.display = 'none';
-            audio.play();
-        }
-    </script>
-    """, unsafe_allow_html=True)
+# Function to handle image click
+def image_click():
+    st.session_state['image_clicked'] = True
 
-# Display the cover image
-st.markdown("""
-    <img id="coverImage" class="cover-image" src="https://github.com/hug0sama/hehe/blob/main/IMG_5984.jpeg?raw=true" onclick="playMusic()">
-    """, unsafe_allow_html=True)
+# Display the cover image if it hasn't been clicked
+if not st.session_state['image_clicked']:
+    st.image("https://github.com/hug0sama/hehe/blob/main/IMG_5984.jpeg?raw=true", use_column_width=True, on_click=image_click)
 
-# Audio element
-song_html = """
-    <audio id="audio">
-         <source src="https://github.com/hug0sama/hehe/blob/main/1.mp3?raw=true" type="audio/mp3">
-    </audio>
-    """
-sound = st.empty()
-sound.markdown(song_html, unsafe_allow_html=True)
+# If the image has been clicked, display the audio player and timeline
+if st.session_state['image_clicked']:
+    # Audio player
+    song_html = """
+        <audio controls autoplay>
+             <source src="https://github.com/hug0sama/hehe/blob/main/1.mp3?raw=true" type="audio/mp3">
+        </audio>
+        """
+    sound = st.empty()
+    sound.markdown(song_html, unsafe_allow_html=True)
 
-# Load and display timeline
-try:
-    with open('example.json', "r") as f:
-     data = f.read()
-    timeline(data, height=800)
-except Exception as e:
-    st.error(f"An error occurred: {e}")
+    # Load and display timeline
+    try:
+        with open('example.json', "r") as f:
+            data = f.read()
+        timeline(data, height=800)
+    except Exception as e:
+        st.error(f"An error occurred: {e}")
