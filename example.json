@@ -3,11 +3,11 @@
     "title": {
         "media": {
           "url": "",
-          "caption": " <a target=\"_blank\" href=''>credits</a>",
+          "caption": "",
           "credit": ""
         },
         "text": {
-          "headline": "Welcome to<br>Streamlit Timeline",
+          "headline": "The sotry of Dada and Hugo",
           "text": "<p>A Streamlit Timeline component by integrating TimelineJS from Knightlab</p>"
         }
     },
