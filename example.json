@@ -7,7 +7,7 @@
           "credit": ""
         },
         "text": {
-          "headline": "The love story of<br>Dada and Hugo",
+          "headline": "<center>The love story of<br>Dada and Hugo</center>",
           "text": "<p>A Streamlit Timeline component by integrating TimelineJS from Knightlab</p>"
         }
     },
