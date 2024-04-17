@@ -16,7 +16,7 @@ if 'play_audio' not in st.session_state:
 
 if not st.session_state['play_audio']:
     # Button to play music
-    st.button('Start Music', on_click=play_audio)
+    st.button('Let's go back to where it started', on_click=play_audio)
 
 # If the button has been clicked, play the music without displaying the audio player
 if st.session_state['play_audio']:
