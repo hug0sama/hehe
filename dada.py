@@ -3,12 +3,6 @@ from streamlit_timeline import timeline
 
 st.set_page_config(page_title="Anniversary", layout="wide")
 
-with open('example.json', "r") as f:
-    data = f.read()
-    
-timeline(data, height=800)
-
-
 if 'play_audio' not in st.session_state:
     st.session_state['play_audio'] = False
     st.session_state['image_clicked'] = False
@@ -34,3 +28,9 @@ if st.session_state['play_audio']:
             """
     sound = st.empty()
     sound.markdown(html_string, unsafe_allow_html=True)
+
+
+with open('example.json', "r") as f:
+    data = f.read()
+    
+timeline(data, height=800)
