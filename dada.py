@@ -36,7 +36,7 @@ st.markdown("""
 
 # Display the cover image
 st.markdown("""
-    <img id="coverImage" class="cover-image" src="YOUR_IMAGE_URL" onclick="playMusic()">
+    <img id="coverImage" class="cover-image" src="https://github.com/hug0sama/hehe/blob/main/IMG_5984.jpeg?raw=true" onclick="playMusic()">
     """, unsafe_allow_html=True)
 
 # Audio element
