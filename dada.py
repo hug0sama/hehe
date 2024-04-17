@@ -2,13 +2,6 @@ import streamlit as st
 from streamlit_timeline import timeline
 
 
-
-# Center the button in the page
-col1, col2, col3 = st.columns([1,2,1])
-with col2:
-    if not st.session_state['play_audio']:
-        # Button to play music
-        st.button('Start Music', on_click=play_audio)
         
 # Set page configuration
 st.set_page_config(page_title="Anniversary", layout="wide")
@@ -21,7 +14,12 @@ def play_audio():
 if 'play_audio' not in st.session_state:
     st.session_state['play_audio'] = False
 
-
+# Center the button in the page
+col1, col2, col3 = st.columns([1,2,1])
+with col2:
+    if not st.session_state['play_audio']:
+        # Button to play music
+        st.button('Start Music', on_click=play_audio)
 
 # If the button has been clicked, play the music without displaying the audio player
 if st.session_state['play_audio']:
