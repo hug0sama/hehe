@@ -20,16 +20,15 @@ with col2:
         if st.button('Start Music'):
             toggle_audio()
 
-# If the button has been clicked, display the audio player and timeline
+# If the button has been clicked, play the music without displaying the audio player
 if st.session_state['play_audio']:
-    # Audio player
+    # Audio element (hidden)
     song_html = """
-        <audio controls autoplay>
+        <audio autoplay>
              <source src="https://github.com/hug0sama/hehe/blob/main/1.mp3?raw=true" type="audio/mp3">
         </audio>
         """
-    sound = st.empty()
-    sound.markdown(song_html, unsafe_allow_html=True)
+    st.markdown(song_html, unsafe_allow_html=True)
 
     # Load and display timeline
     try:
