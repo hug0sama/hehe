@@ -43,16 +43,16 @@
       },
       {
         "media": {
-          "url": "https://github.com/innerdoc/streamlit-timeline/raw/main/component-logo.png",
-          "caption": "github/innerdoc (<a target=\"_blank\" href='https://www.github.com/innerdoc/'>credits</a>)"
+          "url": "https://github.com/hug0sama/hehe/blob/main/IMG_5984.jpeg",
+          "caption": ""
         },
         "start_date": {
-          "year": "2021",
+          "year": "2024",
           "month":"2"
         },
         "text": {
-          "headline": "Streamlit TimelineJS component",
-          "text": "Started with a demo on https://www.innerdoc.com/nlp-timeline/ . <br>Then made a <a href='https://github.com/innerdoc/streamlit-timeline'>Streamlit component</a> of it. <br>Then made a <a href='https://pypi.org/project/streamlit-timeline/'>PyPi package</a> for it."
+          "headline": "Test 123",
+          "text": "The quick brown fox jumps over the lazy dog."
         }
       }
     ]
