@@ -51,7 +51,7 @@ sound.markdown(song_html, unsafe_allow_html=True)
 # Load and display timeline
 try:
     with open('example.json', "r") as f:
-    data = f.read()
+     data = f.read()
     timeline(data, height=800)
 except Exception as e:
     st.error(f"An error occurred: {e}")
