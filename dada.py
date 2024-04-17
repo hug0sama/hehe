@@ -4,23 +4,24 @@ from streamlit_timeline import timeline
 # Set page configuration
 st.set_page_config(page_title="Anniversary", layout="wide")
 
-# Initialize session state for image visibility
-if 'show_image' not in st.session_state:
-    st.session_state['show_image'] = True
+# Initialize session state for audio player visibility
+if 'play_audio' not in st.session_state:
+    st.session_state['play_audio'] = False
 
-# Function to toggle image visibility
-def toggle_image():
-    st.session_state['show_image'] = not st.session_state['show_image']
+# Function to toggle audio player visibility
+def toggle_audio():
+    st.session_state['play_audio'] = True
 
-# Display the cover image if it should be shown
-if st.session_state['show_image']:
-    st.image("https://github.com/hug0sama/hehe/blob/main/IMG_5984.jpeg?raw=true", use_column_width=True)
-    # Button to hide the image and play music
-    if st.button('Start Music'):
-        toggle_image()
+# Center the button in the page
+col1, col2, col3 = st.columns([1,2,1])
+with col2:
+    if not st.session_state['play_audio']:
+        # Button to play music
+        if st.button('Start Music'):
+            toggle_audio()
 
-# If the image is not supposed to be shown, display the audio player and timeline
-if not st.session_state['show_image']:
+# If the button has been clicked, display the audio player and timeline
+if st.session_state['play_audio']:
     # Audio player
     song_html = """
         <audio controls autoplay>
