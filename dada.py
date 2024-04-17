@@ -16,7 +16,7 @@ if 'play_audio' not in st.session_state:
 
 if not st.session_state['play_audio']:
     # Button to play music
-    st.button("Some of us get dipped in flat, some in satin, some in gloss. But every once in a while you find someone who's iridescent, and when you do, nothing will ever compare", on_click=play_audio)
+    st.button("Let's go back to the beginning:rewind	:black_left_pointing_double_triangle_with_vertical_bar:", on_click=play_audio, use_container_width=True)
 
 # If the button has been clicked, play the music without displaying the audio player
 if st.session_state['play_audio']:
