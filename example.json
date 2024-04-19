@@ -7,8 +7,9 @@
           "credit": ""
         },
         "text": {
-          "headline": "<center>The love story of<br>Dada and Hugo</center>",
-          "text": "<p>A Streamlit Timeline component by integrating TimelineJS from Knightlab</p>"
+          "headline": "<p style="color: red;">The <span style="color: black;">love</span> story of Dada and Hugo</p>
+",
+          "text": ""
         }
     },
     "events": [
