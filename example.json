@@ -7,8 +7,7 @@
           "credit": ""
         },
         "text": {
-          "headline": "<p style="color: red;">The <span style="color: black;">love</span> story of Dada and Hugo</p>
-",
+          "headline": "<p style='color: red;'>The <span style='color: black;'>love</span> story of Dada and Hugo</p>",
           "text": ""
         }
     },
