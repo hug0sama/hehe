@@ -233,7 +233,7 @@
           	"day":"14"
         	},
         	"text": {
-          	"headline": "ORD"
+          	"headline": "ORD",
           	"text": "I'm finally out of hell"
         	}
       	},
@@ -248,7 +248,7 @@
             "day":"9"
             },
             "text": {
-            "headline": "Game Cafe"
+            "headline": "Game Cafe",
             "text": "Nintendo switch"
             }
         },
@@ -263,7 +263,7 @@
             "day":"18"
             },
             "text": {
-            "headline": "Your Birthday"
+            "headline": "Your Birthday",
             "text": "Ice cream museum"
             }
         },
@@ -278,7 +278,7 @@
             "day":"13"
             },
             "text": {
-            "headline": "Your Graduation"
+            "headline": "Your Graduation",
             "text": "I bought you flowers"
             }
         },
@@ -293,7 +293,7 @@
             "day":"25"
             },
             "text": {
-            "headline": "My Birthday Again"
+            "headline": "My Birthday Again",
             "text": "I bought you flowers"
             }
         },
@@ -308,7 +308,7 @@
             "day":"5"
             },
             "text": {
-            "headline": "Prom King and Queen"
+            "headline": "Prom King and Queen",
             "text": "I bought you flowers"
             }
         },
@@ -323,7 +323,7 @@
             "day":"1"
             },
             "text": {
-            "headline": "Happy New Year"
+            "headline": "Happy New Year",
             "text": "We played board game and watched firework"
             }
         },
@@ -338,7 +338,7 @@
             "day":"14"
             },
             "text": {
-            "headline": "Valentine's Day Again"
+            "headline": "Valentine's Day Again",
             "text": "I bought you flowers again"
             }
         },
@@ -353,7 +353,7 @@
             "day":"29"
             },
             "text": {
-            "headline": "Zoo Tour"
+            "headline": "Zoo Tour",
             "text": "You finally met your friends haha"
             }
         },
