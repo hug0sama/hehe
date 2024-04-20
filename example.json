@@ -264,7 +264,7 @@
             },
             "text": {
             "headline": "Happy Birthday To You Again",
-            "text": "I know my bae relies on ice cream to survive, so this place was definitely a great surprise. And My love turned back into an adorable kid that day.😝"
+            "text": "I know my bae relies on ice cream to survive, so this place was definitely a great surprise. And my bae turned back into an adorable kid that day.😝"
             }
         },
         {
@@ -363,12 +363,11 @@
             "caption": ""
             },
             "start_date": {
-            "year": "2024",
-            "month":"4",
-            "day":"22"
+            "year": "<span style='color: white;'>2024</span>",
+            "month":"<span style='color: white;'>4</span>"
             },
             "text": {
-            "headline": "<center>Our Story Goes On...</center>",
+            "headline": "<center>And Our Story Goes On...</center>",
             "text": ""
             }
         }
