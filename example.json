@@ -363,8 +363,8 @@
             "caption": ""
             },
             "start_date": {
-            "year": "<span style='color: white;'>2024</span>",
-            "month":"<span style='color: white;'>4</span>"
+            "year": "2024<style='white'",
+            "month":"4"
             },
             "text": {
             "headline": "<center>And Our Story Goes On...</center>",
