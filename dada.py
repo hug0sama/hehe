@@ -15,8 +15,9 @@ if 'play_audio' not in st.session_state:
     st.session_state['play_audio'] = False
 
 if not st.session_state['play_audio']:
-    # Button to play music
-    st.button("Let's go back to the beginning:rewind	:black_left_pointing_double_triangle_with_vertical_bar:", on_click=play_audio, use_container_width=True)
+        # Button to play music
+        st.image("https://github.com/hug0sama/hehe/blob/main/anniversary/cover.jpg?raw=true")
+        st.button("Let's go back to the beginning:rewind	:black_left_pointing_double_triangle_with_vertical_bar:", on_click=play_audio, use_container_width=True)
 
 # If the button has been clicked, play the music without displaying the audio player
 if st.session_state['play_audio']:
