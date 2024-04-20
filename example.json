@@ -14,7 +14,7 @@
     "events": [
       {
         "media": {
-          "url": "https://github.com/hug0sama/hehe/blob/main/anniversary/2022-4.jpg",
+          "url": "https://github.com/hug0sama/hehe/blob/main/anniversary/2022-4.jpg?raw=true",
           "caption": ""
         },
         "start_date": {
@@ -28,31 +28,30 @@
       },
       {
         "media": {
-          "url": "https://github.com/hug0sama/hehe/blob/main/anniversary/2022-6.jpg",
+          "url": "https://github.com/hug0sama/hehe/blob/main/anniversary/2022-6.jpg?raw=true",
           "caption": ""
         },
         "start_date": {
           "year": "2022",
-          "month":"5",
-          "day":"13"
+          "month":"5"
         },
         "text": {
-          "headline": "Streamlit Components<br>version 0.63.0",
-          "text": "Streamlit lets you turn data scripts into sharable web apps in minutes, not weeks. It's all Python, open-source, and free! And once you've created an app you can use our free sharing platform to deploy, manage, and share your app with the world."
+          "headline": "Art Science Museum",
+          "text": "Our first kiss"
         }
       },
       {
         "media": {
-          "url": "https://github.com/hug0sama/hehe/blob/main/IMG_5984.jpeg?raw=true",
+          "url": "https://github.com/hug0sama/hehe/blob/main/anniversary/2022-6.jpg?raw=true",
           "caption": ""
         },
         "start_date": {
-          "year": "2024",
-          "month":"2"
+          "year": "2022",
+          "month":"6"
         },
         "text": {
-          "headline": "Test 123",
-          "text": "The quick brown fox jumps over the lazy dog."
+          "headline": "Our 50th day",
+          "text": "You were in Korea"
         }
       }
     ]
