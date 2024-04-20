@@ -28,7 +28,7 @@
       },
       {
         "media": {
-          "url": "https://github.com/hug0sama/hehe/blob/main/anniversary/2022-6.jpg?raw=true",
+          "url": "https://github.com/hug0sama/hehe/blob/main/anniversary/2022-5.jpg?raw=true",
           "caption": ""
         },
         "start_date": {
@@ -53,6 +53,36 @@
           "headline": "Our 50th day",
           "text": "You were in Korea"
         }
-      }
+      },
+        {
+        "media": {
+          "url": "https://github.com/hug0sama/hehe/blob/main/anniversary/2022-7.jpg?raw=true",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2022",
+          "month":"7",
+            "day":"10"
+        },
+        "text": {
+          "headline": "Tea Chapter",
+          "text": "Our 100th day"
+        }
+      },
+        {
+        "media": {
+          "url": "https://github.com/hug0sama/hehe/blob/main/anniversary/2022-8.jpg?raw=true",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2022",
+          "month":"7",
+            "day":"30"
+        },
+        "text": {
+          "headline": "Garden's by the bay",
+          "text": "Our first kiss"
+        }
+      },
     ]
 }
