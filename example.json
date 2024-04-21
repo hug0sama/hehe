@@ -359,15 +359,31 @@
         },
         {
             "media": {
+            "url": "https://github.com/hug0sama/hehe/blob/main/anniversary/2024-4.jpg?raw=true",
+            "caption": ""
+            },
+            "start_date": {
+            "year": "2024",
+            "month":"4",
+            "day":"21"
+            },
+            "text": {
+            "headline": "Universal Studios Singapore",
+            "text": "Our second anniversary has arrived! It’s hard to believe I’ve been dating such an adorable and beautiful girl for two years. I hope you’re not too disappointed in Hugo for not braving the roller coaster again. 🥺 While I might be scared of that, I’m not afraid to sacrifice my life for my bae!"
+            }
+        },
+        {
+            "media": {
             "url": "",
             "caption": ""
             },
             "start_date": {
             "year": "2024",
-            "month":"4"
+            "month":"4",
+            "day":"22"
             },
             "text": {
-            "headline": "<center>And Our Story Goes On...</center>",
+            "headline": "<center>and our story goes on...</center>",
             "text": ""
             }
         }
